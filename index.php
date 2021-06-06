@@ -11,6 +11,7 @@
 
 
 <body>
+
 <?php
 session_start();
 echo "<script>";
@@ -34,7 +35,9 @@ echo "<script>";
     <textarea id="w3review" name="query" rows="4" cols="50"  ></textarea>
         <button type="submit">siusti uzklausa</button>
     </form>
-    
+    <table id= "table">
+
+</table>
 
 
     <script src="./render.js"></script>
